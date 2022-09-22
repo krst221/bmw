@@ -1,0 +1,332 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("../img/coche.jpeg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 10%;
+    margin-top: 19px;
+}
+.barra:after {
+    content: "";
+    background-color: white; 
+    width: 75%;
+    height: 1px;
+    position: absolute;
+    top: 14%;
+}
+.textos > a {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: white; 
+    text-decoration: none;
+}
+.textos > a:hover {
+    color: blueviolet;
+}
+.iconos {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.logo {
+    width: 8%;
+}
+.barraiconos {
+    margin-left: 35%;
+}
+.botondescu {
+    padding: 5px;
+    background-color: blue;
+    width: 25%;
+    text-align: center;
+}
+.botondescu:hover {
+    background-color: darkblue;
+}
+.textodescu > h1 {
+    font-family: Arial;
+    font-size: 36px;
+    color: white;
+    line-height: 5px;
+}
+.textodescu > h2 {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+}
+.botondescu > a {
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+.descu {
+    position: absolute;
+    left: 3%;
+    top: 55%;
+}
+.coches {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 6%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.series {
+    width: 100%;
+}
+.series > a {
+    text-align: left;
+    color: gray;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.series > a:hover {
+    color: darkgray;
+}
+.listatipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.tipo > a {
+    color: gray;
+    font-family: Arial;
+    font-size: 22px;
+    text-decoration: none;
+}
+.tipo > a:hover {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 12px;
+}
+.cajascoches {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.cajacoches {
+    width: 350px;
+    margin: 10px;
+}
+.cajacoches > img {
+    width: 100%;
+    margin-left: 10%;
+}
+.captioncoche > h3 {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 0px;
+}
+.captioncoche > h4 {
+    font-family: Arial; 
+    font-size: 12px;
+    color: gray;
+    line-height: 10px;
+}
+.captioncoche > a {
+    font-family: Arial;
+    line-height: 0px;
+    text-decoration: none;
+    color: black;
+}
+.captioncoche > a:hover {
+    color: blue;
+}
+.cajasanuncios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}.cajanuncios {
+    margin-top: 10%;
+    width: 250px;
+}
+.cajanuncios > img {
+    width: 100%;
+}
+.captionanuncios > h3 {
+    font-family: Arial;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.captionanuncios > p {
+    font-family: Arial; 
+    font-size: 12px;
+    line-height: 15px;
+}
+.captionanuncios > a {
+    font-family: Arial;
+    line-height: 0px;
+    text-decoration: none;
+    color: black;
+}
+.captionanuncios > a:hover {
+    color: blue;
+}
+.cajasvideos {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cajavideos {
+    width: 48%;
+    margin: 0px;
+}
+.cajavideos > img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.cajavideos > iframe {
+    width: 100%;
+    height: 80.25%;
+    margin-bottom: 2%;
+}
+.captionvideos > h3 {
+    font-family: Arial;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.captionvideos > a {
+    font-family: Arial;
+    line-height: 0px;
+    text-decoration: none;
+    color: black;
+}
+.captionvideos > a:hover {
+    color: blue;
+}
+.botones {
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cajaboton {
+    background-color: lightgray;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+}
+.cajaboton > img {
+    width: 10%;
+    align-items: center;
+    margin-top: 10%;
+}
+.cajaboton > a {
+    font-family: Arial;
+    color: darkslategrey;
+    font-size: 14px;
+    text-decoration: none;
+}
+.cajaboton > a:hover {
+    color: gray;
+}
+.fondo {
+    width: 100%;
+    height: 400px;
+    margin-top: 6%;
+    background-color: rgb(195, 206, 214);
+}
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 85%;
+    height: 45%;
+    margin-left: 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.columnas:before {
+    content: "";
+    background-color: gray; 
+    width: 75%;
+    height: 1px;
+    position: absolute;
+}
+.columna {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.columna > h2 {
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+.columna > ul {
+    list-style-type: none;
+}
+.columna > ul > a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(158, 154, 154);
+}
+.columna > ul > a:hover {
+    color: gray;
+}
+.barra2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    height: 10%;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+.textos2 > a {
+    text-align: right;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    color: blue; 
+    text-decoration: none;
+}
+.textos2 > a:hover {
+    color: blueviolet;
+}
+.textos2 > span {
+    font-family: Arial;
+    font-size: 12px;
+}
